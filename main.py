@@ -33,8 +33,7 @@ def main():
             break
     exportTxtProducts(products)
 
-    if len(products) != 0:
-        print('Seus produtos foram adicionados e exportados. E foi criado um arquivo CADTXT.txt com eles.')
+    print('Seus produtos foram adicionados e exportados. E foi criado um arquivo CADTXT.txt com eles.')
 
 
 main()
